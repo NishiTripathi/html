@@ -3,26 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Contact Us</title>
 </head>
 <body>
     <header>
-        <nav style="text-align:right;margin-top: 50px;margin-right: 50px; font-size: 20px;">        
-            <a href="index.html">Home</a>&emsp;
-            <a href="aboutus.html">About Us</a>&emsp;
-            <a href="contactus.html">Contact Us</a>
+        <nav style="text-align: right;margin-top: 20px;margin-right: 50px; font-size: 20px; font-style:italic;">
+            <li><a href="index.html">Home</a> </li>&emsp;
+            <li><a href="aboutus.html">About Us</a></li>&emsp;
+            <li><a href="contactus.html">Contact Us</a></li>
         </nav>
     </header>
-    <p style="text-align: right;">
-        <img src="https://cdn.storehippo.com/s/5b224b2d59ab522aaae2a1c1/ms.files/Contact%20Us%20banner.jpg">
-    </p>
-    <div style=" margin-left: 50px;" >
+    
+    <div  class ="img_1"style=" margin-left: 50px;"  >
+        <p style="text-align: right;">
+            <img src="https://cdn.storehippo.com/s/5b224b2d59ab522aaae2a1c1/ms.files/Contact%20Us%20banner.jpg" width=100%>
+        </p>
     <form>
         <h2>Contact Us Form</h2>
-        Email Id <br><input type="email" id ="email" placeholder="Enter Your Email Id"><br><br>
-        Any Query<br>
-        <textarea cols="50" rows="10"  placeholder="Please Enter Your Query...."></textarea><br>
-        <input  type="button" value="Submit"/>
+        <div id="box">
+         <b><i>Email Id</i></b> <input type="text" size="600" placeholder="Enter Email Id...."><br><br>
+         <b><i>Any Query</i></b>
+        <textarea class cols="50" rows="10"  placeholder="Please Enter Your Query...."></textarea><br>
+        <button id="button1" type="button" value="Submit">Submit</button>
+        </div>
+        
+        
     </form>
 </div>
 </section>
